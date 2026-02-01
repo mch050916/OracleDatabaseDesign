@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68E58168-1420-DD5A-7B8B-0EF70C33BEB4" name="MANIFEST">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>CC9E91DE-0880-36BA-03A0-47B5F8BDA4FC</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="EF487085-DCDD-9837-2C34-A7A8A6358965">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>02E3FD91-FAFE-E5EF-8454-386EC39BC10E</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="669059CA-78E3-12C6-EB22-38E1AC04B864" referredColumn="7F245E02-6821-F616-CE8B-8460A11E44A5"/>
+</associations>
+</Column>
+<Column name="passenger_board_date" id="8E77580E-4E6E-A2C8-F666-C583A3C98F8F">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[board date of the passenger ]]></commentInRDBMS>
+<generatorID>EF97B807-3BEA-995C-91AD-A8F29B43A5BE</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_board_time" id="32442707-1BE4-4157-13E8-74F4817E25E3">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[board time of the passenger]]></commentInRDBMS>
+<generatorID>1CD4118C-233A-E949-52A6-636E60B27E0D</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0330D0F9-8F66-7351-2790-B9A98D53AB12" name="MANIFEST_PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>D24B9EFC-4A55-A8B6-FCE8-2CE344012C18</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF487085-DCDD-9837-2C34-A7A8A6358965"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="451A7585-F701-8341-BCE9-8F7F06D76A79" name="passenger_manifest_fk">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>54CD9ED7-6F11-9A96-51B4-A8716E90706B</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF487085-DCDD-9837-2C34-A7A8A6358965"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

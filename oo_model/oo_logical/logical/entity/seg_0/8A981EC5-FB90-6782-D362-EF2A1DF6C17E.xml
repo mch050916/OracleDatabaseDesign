@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A981EC5-FB90-6782-D362-EF2A1DF6C17E" name="OPERATOR">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:30:32 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="operator_id" id="5A18C439-DBB3-FC16-6BB1-8939C7654E82">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:30:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id ]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operator_name" id="8EB0D7D0-B849-A0A0-1A69-C43C3BF050E1">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:30:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator name]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operator_ceo_name" id="86B5987D-0912-6CDC-0209-43E883010DAF">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:30:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator ceo name]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="A56C731E-A4FD-7590-FDD6-41A2F25E5265">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:34:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>8F148D07-8A92-CE67-D21C-9BED2C545EB5</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<referedAttribute>BE139EC3-5A5F-9693-BA84-21C947394086</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F42FA32A-E229-6C52-4E8A-819123A96339" name="OPERATOR PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:31:03 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A18C439-DBB3-FC16-6BB1-8939C7654E82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

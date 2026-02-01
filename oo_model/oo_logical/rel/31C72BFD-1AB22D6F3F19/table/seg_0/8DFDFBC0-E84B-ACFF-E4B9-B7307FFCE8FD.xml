@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DFDFBC0-E84B-ACFF-E4B9-B7307FFCE8FD" name="PASSENGER">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>E0263E10-1375-DEE0-D11F-8A788D6A6B42</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="7F245E02-6821-F616-CE8B-8460A11E44A5">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>81D104F5-27DC-4AF8-7EBA-D032741A597F</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_code" id="A378E07D-6C48-717F-A507-279C9800CCC3">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>45FEAC73-45CF-2F5C-899F-926B349BE346</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AB9DB1B-9F02-2CE3-E114-90173FEEE06E" referredColumn="C6AB484E-82DD-4899-2267-F4FE239FDEE0"/>
+</associations>
+</Column>
+<Column name="guardian_id" id="2873C576-C74C-8CC4-FC3B-205C50BBB557">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>2A63E228-7F60-B106-F228-5072438BC2D0</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AEA968F-5924-FD60-2072-05F6B1E4BEE2" referredColumn="7F245E02-6821-F616-CE8B-8460A11E44A5"/>
+</associations>
+</Column>
+<Column name="passenger_first_name" id="E75C2049-A543-3334-C637-C7B2717B7EB5">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[first name of the passenger]]></commentInRDBMS>
+<generatorID>8BAD2129-7B3A-2373-3FDD-302FB6BADA07</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_last_name" id="9809DCF4-A843-638F-0F13-80498FCFA554">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[last name of the passenger]]></commentInRDBMS>
+<generatorID>EC19A8ED-472E-8BB3-A3C4-68241CD722EF</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_gender" id="B83B9611-CFA0-E1F0-9D14-B94F75213EC8">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[gender of the passenger]]></commentInRDBMS>
+<generatorID>87CAA29C-3B5D-230C-21C9-1FA0C903BD5B</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_birth_date" id="F6DEF7CC-64E5-AF5E-747B-17766C520EAE">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger birth date]]></commentInRDBMS>
+<generatorID>2FF051D3-960B-817F-4269-6D960FBE2D9E</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_phone_no" id="0A01833D-8281-C4E2-7B01-9AAA19E8CF43">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger phone number]]></commentInRDBMS>
+<generatorID>2CBA437F-AE66-B3C4-D07E-D3D2E4DF80DC</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_id" id="DD97849F-A56E-98BD-6009-A5FA84228D57">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[address id (surrogate PK)]]></commentInRDBMS>
+<generatorID>74C29F75-5A3E-6D2D-EAC8-14866AFB4E0F</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACFC17D7-0F2B-E53E-306D-34F12801B7AD" referredColumn="C431BFF3-D95D-A773-0CBE-8EA7DC2AAA29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DE6D4F0-3044-39B4-0813-138199CF8254" name="PASSENGER_PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>ADDF324F-D64C-A9C9-4C59-F688825F4E35</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F245E02-6821-F616-CE8B-8460A11E44A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="081B0073-70CD-C388-A2AB-9ED7EFD1B848" name="address_passenger">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>C7630645-714E-C312-43CA-B8BDB8DA5082</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD97849F-A56E-98BD-6009-A5FA84228D57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80CF3CCC-6D92-9C93-0B58-F41B52289EC4" name="passenger_guardian">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>0CB73FA4-66E3-8A41-2D3E-9E07DA37F370</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2873C576-C74C-8CC4-FC3B-205C50BBB557"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BAAD940-2714-16E3-96E4-E6CB6591D74E" name="ship_passenger_fk">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 06:07:06 UTC</createdTime>
+<generatorID>DBC30170-C5E0-C96B-D134-B2A7296A32AD</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A378E07D-6C48-717F-A507-279C9800CCC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

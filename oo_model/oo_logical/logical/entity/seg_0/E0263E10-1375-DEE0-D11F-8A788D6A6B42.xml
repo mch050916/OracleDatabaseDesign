@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0263E10-1375-DEE0-D11F-8A788D6A6B42" name="PASSENGER">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:52:49 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passenger_id" id="81D104F5-27DC-4AF8-7EBA-D032741A597F">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:53:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="45FEAC73-45CF-2F5C-899F-926B349BE346">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:46:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>DBC30170-C5E0-C96B-D134-B2A7296A32AD</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<referedAttribute>BE139EC3-5A5F-9693-BA84-21C947394086</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="guardian_id" id="2A63E228-7F60-B106-F228-5072438BC2D0">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 06:13:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>0CB73FA4-66E3-8A41-2D3E-9E07DA37F370</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>81D104F5-27DC-4AF8-7EBA-D032741A597F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_first_name" id="8BAD2129-7B3A-2373-3FDD-302FB6BADA07">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:53:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[first name of the passenger]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_last_name" id="EC19A8ED-472E-8BB3-A3C4-68241CD722EF">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:53:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[last name of the passenger]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_gender" id="87CAA29C-3B5D-230C-21C9-1FA0C903BD5B">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:53:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[gender of the passenger]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_birth_date" id="2FF051D3-960B-817F-4269-6D960FBE2D9E">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:53:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger birth date]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_phone_no" id="2CBA437F-AE66-B3C4-D07E-D3D2E4DF80DC">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-24 04:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger phone number]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_id" id="74C29F75-5A3E-6D2D-EAC8-14866AFB4E0F">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:59:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[address id (surrogate PK)]]></commentInRDBMS>
+<generatorID>C7630645-714E-C312-43CA-B8BDB8DA5082</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<referedAttribute>863E849A-05EB-F4B5-A02F-8CF312E04CBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADDF324F-D64C-A9C9-4C59-F688825F4E35" name="PASSENGER PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:53:17 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81D104F5-27DC-4AF8-7EBA-D032741A597F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

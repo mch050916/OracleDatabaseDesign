@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CFCFAC2-CD74-E87D-FF5D-4D87C499232B" name="SHIP">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:02 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ship_code" id="BE139EC3-5A5F-9693-BA84-21C947394086">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operator_id" id="54F00EF7-796C-499D-A9D2-B839118A4CC6">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:40:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id ]]></commentInRDBMS>
+<generatorID>8F148D07-8A92-CE67-D21C-9BED2C545EB5</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<referedAttribute>5A18C439-DBB3-FC16-6BB1-8939C7654E82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="F4556FC1-D441-B890-6344-91810690541B">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:42:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>D06AF370-5AE7-767A-A345-72936105397C</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<referedAttribute>288DED27-86B7-9C4B-8D80-6DCAA7B4882E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_name" id="9F9214F8-F73E-8333-BA6F-3E4BF549E78A">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship name]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_commission_date" id="95216A79-9174-F2C4-70D0-8134B3CF90E2">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship commission date]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_tonnage" id="58CD8F47-A4C6-7CEA-86AA-6E35277E886E">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship toonage]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_max_guest_capacity" id="3E42B462-C8E9-A834-3023-A8DC8317D954">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship maximum guest capacity]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_register_country" id="71228A66-E9C3-A1A3-87EC-970D81B85D1C">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship register country]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7ACC8A05-A4C2-60C7-CECE-5763A2D7F189" name="SHIP PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:40:52 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE139EC3-5A5F-9693-BA84-21C947394086</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

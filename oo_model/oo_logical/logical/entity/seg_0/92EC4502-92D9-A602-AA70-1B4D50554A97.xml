@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92EC4502-92D9-A602-AA70-1B4D50554A97" name="CRUISE">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:49:28 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cruise_id" id="288DED27-86B7-9C4B-8D80-6DCAA7B4882E">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:49:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_name" id="E165DF24-A108-1CD6-0D5E-92C74313BEF0">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:49:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of the cruise]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_description" id="5B395172-9BCA-FC1A-4E68-70F9723FEC54">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:49:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[description of the cruise]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_depart_date" id="7854641F-9EC3-0E0E-B6CB-580F281C9105">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:49:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[depart date of the cruise]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_deport_time" id="4CE48689-555B-8430-F6C5-2DBB9A0FFED6">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-24 03:56:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise depart time]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_departurearrival" id="C816BB3F-B6EF-1891-2B50-1F3C5E61E35A">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-24 03:54:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[departure/arrival of cruise]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_datetime" id="6436E3B9-4DB1-5AFE-0D1A-0651093AD14D">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-24 03:57:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise date/time]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_cost_per_person" id="9DAFD99E-E251-59D3-3DD5-730D880FA4ED">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-24 04:20:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise cost per person]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D0099A0-A183-5D9E-B728-45338E799A0D" name="CRUISE PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:49:55 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>288DED27-86B7-9C4B-8D80-6DCAA7B4882E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

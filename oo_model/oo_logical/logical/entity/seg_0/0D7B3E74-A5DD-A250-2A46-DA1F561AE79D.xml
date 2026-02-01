@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D7B3E74-A5DD-A250-2A46-DA1F561AE79D" name="ADDRESS">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:06:29 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address_id" id="863E849A-05EB-F4B5-A02F-8CF312E04CBE">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:59:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[address id (surrogate PK)]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_street" id="CAB1D16B-DE4E-6CE3-8828-B1B57815DF89">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:06:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[address street]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_town" id="35A93E35-5D7C-43C6-CD35-C40ED4109594">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:06:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[address town]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_postcode" id="EA74156F-1B56-B750-0767-21C4B2DD9898">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:06:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[address postcode]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_country" id="DED7C40E-C066-30DF-AAE4-CA2311309ECF">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:06:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[address_country]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="970092D7-9EB6-1353-68B9-0C456F3AF47E" name="ADDRESS PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:06:58 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>863E849A-05EB-F4B5-A02F-8CF312E04CBE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="12EE9869-9940-4AF1-33EE-3F537D059043" name="ADDRESS_NK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-25 05:12:50 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="false"/>
+</engineerTo>
+<newElementsIDs>CAB1D16B-DE4E-6CE3-8828-B1B57815DF89,35A93E35-5D7C-43C6-CD35-C40ED4109594,EA74156F-1B56-B750-0767-21C4B2DD9898,DED7C40E-C066-30DF-AAE4-CA2311309ECF</newElementsIDs>
+<usedAttributes>
+<attributeRef>CAB1D16B-DE4E-6CE3-8828-B1B57815DF89</attributeRef>
+<attributeRef>35A93E35-5D7C-43C6-CD35-C40ED4109594</attributeRef>
+<attributeRef>EA74156F-1B56-B750-0767-21C4B2DD9898</attributeRef>
+<attributeRef>DED7C40E-C066-30DF-AAE4-CA2311309ECF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

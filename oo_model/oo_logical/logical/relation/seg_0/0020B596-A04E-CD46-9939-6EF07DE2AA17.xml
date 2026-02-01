@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ship_cabin_fk" directorySegmentName="seg_0" id="0020B596-A04E-CD46-9939-6EF07DE2AA17">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 05:32:25 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<sourcePk>7ACC8A05-A4C2-60C7-CECE-5763A2D7F189</sourcePk>
+<targetPk>8C819505-C20E-4733-B028-0933B1A0C7F3</targetPk>
+<identifying>true</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CFCFAC2-CD74-E87D-FF5D-4D87C499232B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD551B34-8456-9040-0CD5-E46A0F0A4DEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

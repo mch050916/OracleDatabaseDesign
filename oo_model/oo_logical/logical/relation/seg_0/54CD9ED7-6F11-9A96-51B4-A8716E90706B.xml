@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="passenger_manifest_fk" directorySegmentName="seg_0" id="54CD9ED7-6F11-9A96-51B4-A8716E90706B">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 06:10:48 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<sourcePk>ADDF324F-D64C-A9C9-4C59-F688825F4E35</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>booking creates</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0263E10-1375-DEE0-D11F-8A788D6A6B42</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CC9E91DE-0880-36BA-03A0-47B5F8BDA4FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

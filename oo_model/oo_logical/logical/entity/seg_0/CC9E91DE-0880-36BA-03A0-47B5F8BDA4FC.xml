@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC9E91DE-0880-36BA-03A0-47B5F8BDA4FC" name="MANIFEST">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:58:36 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passenger_id" id="02E3FD91-FAFE-E5EF-8454-386EC39BC10E">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 06:10:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>54CD9ED7-6F11-9A96-51B4-A8716E90706B</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<referedAttribute>81D104F5-27DC-4AF8-7EBA-D032741A597F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_board_date" id="EF97B807-3BEA-995C-91AD-A8F29B43A5BE">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:58:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[board date of the passenger ]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_board_time" id="1CD4118C-233A-E949-52A6-636E60B27E0D">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:58:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[board time of the passenger]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D24B9EFC-4A55-A8B6-FCE8-2CE344012C18" name="MANIFEST PK">
+<createdBy>chesterman</createdBy>
+<createdTime>2025-04-23 04:59:13 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C72BFD-9C92-125E-B68C-1AB22D6F3F19" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02E3FD91-FAFE-E5EF-8454-386EC39BC10E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
